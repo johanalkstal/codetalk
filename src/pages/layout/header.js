@@ -19,7 +19,7 @@ function Header(props) {
       </div>
 
       <Link to={linkUrl}>
-        <ActionButton label={label} />
+        <ActionButton>{label}</ActionButton>
       </Link>
     </header>
   );

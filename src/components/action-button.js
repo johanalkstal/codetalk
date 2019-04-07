@@ -1,7 +1,11 @@
 import React from "react";
 
 function ActionButton(props) {
-  return <button className="action-button">{props.label}</button>;
+  return (
+    <button className="button bg-theme-primary color-theme-on-primary">
+      {props.children}
+    </button>
+  );
 }
 
 export default ActionButton;

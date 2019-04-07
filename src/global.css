@@ -74,12 +74,10 @@ h6 {
  * Components
  */
 
-.action-button {
-  background-color: var(--color-theme-primary);
+.button {
   border: none;
   border-radius: var(--size-unit-2);
   cursor: pointer;
-  color: var(--color-theme-on-primary);
   font-size: var(--font-size-button);
   letter-spacing: 1px;
   min-height: calc(var(--size-unit) * 4);
@@ -91,12 +89,12 @@ h6 {
   transition: box-shadow 0.2s ease;
 }
 
-.action-button:focus,
-.action-button:hover {
+.button:focus,
+.button:hover {
   box-shadow: var(--shadow);
 }
 
-.action-button:active {
+.button:active {
   box-shadow: none;
   position: relative;
   top: 1px;
@@ -125,6 +123,10 @@ h6 {
   background-color: var(--color-theme-background);
 }
 
+.bg-theme-primary {
+  background-color: var(--color-theme-primary);
+}
+
 .bg-surface {
   background-color: var(--color-theme-surface);
 }
@@ -133,6 +135,10 @@ h6 {
   border-bottom-color: var(--color-theme-border);
   border-bottom-style: solid;
   border-bottom-width: 1px;
+}
+
+.color-theme-on-primary {
+  color: var(--color-theme-on-primary);
 }
 
 .flex {
